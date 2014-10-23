@@ -1,0 +1,4 @@
+challenge
+=========
+
+Programming challenge solution.
