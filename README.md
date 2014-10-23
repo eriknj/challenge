@@ -8,4 +8,7 @@ The httpd module provides the required interface, spawns new eriknj/scrape conta
 The scrape modules perform the actual web scraping and communicate their findings back to the eriknj/httpd container.
 
 To start the program, execute:
-docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p <port>:5000 --name httpd eriknj/httpd
+<code>
+docker run -d -v /var/run/docker.sock:/var/run/docker.sock -p &lt;port&gt;:5000 --name httpd eriknj/httpd
+</code>
+Where &lt;port&gt; is the port you wish to communicate with the application on.
